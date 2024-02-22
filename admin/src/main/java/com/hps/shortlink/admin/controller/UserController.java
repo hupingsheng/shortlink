@@ -1,5 +1,7 @@
 package com.hps.shortlink.admin.controller;
 
+import com.hps.shortlink.admin.common.convention.result.Result;
+import com.hps.shortlink.admin.common.enums.UserErrorCodeEnum;
 import com.hps.shortlink.admin.dto.resp.UserRespDTO;
 import com.hps.shortlink.admin.service.UserService;
 import lombok.RequiredArgsConstructor;
@@ -23,8 +25,11 @@ public class UserController {
      * @return
      */
     @GetMapping("/api/shortlink/v1/user/{username}")
-    public UserRespDTO getUserByUsername(@PathVariable("username") String username){
-        UserRespDTO userRespDTO = userService.getUserByUsername("hps");
-        return userRespDTO;
+    public Result<UserRespDTO> getUserByUsername(@PathVariable("username") String username){
+        UserRespDTO result = userService.getUserByUsername(username);
+
+        if (result == null)
+            return new Result<UserRespDTO>().setCode(UserErrorCodeEnum.USER_NULL.code()).setMessage(UserErrorCodeEnum.USER_NULL.message());
+        return new Result<UserRespDTO>().setCode("0").setData(result);
     }
 }
