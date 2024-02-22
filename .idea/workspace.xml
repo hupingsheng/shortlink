@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b3520ff-5c5e-4652-b824-70283a1a49b0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/common/enums/UserErrorCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/common/enums/UserErrorCodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/dao/entity/UserDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/dao/entity/UserDO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +63,13 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hps.shortlink.admin.dto.req" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\project\shortlink\project\src\main\resources" />
       <recent name="D:\project\shortlink\project\src\main\java\com\hps\shortlink\project" />
@@ -95,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708506205861</updated>
-      <workItem from="1708506208697" duration="20580000" />
+      <workItem from="1708506208697" duration="24506000" />
     </task>
     <servers />
   </component>
@@ -130,6 +139,16 @@
           <url>file://$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/common/web/GlobalExceptionHandler.java</url>
           <line>51</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/service/impl/UserServiceImpl.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/controller/UserController.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
