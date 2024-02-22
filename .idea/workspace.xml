@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9b3520ff-5c5e-4652-b824-70283a1a49b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/dao/entity/UserDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/dao/entity/UserDO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/dto/resp/UserRespDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/dto/resp/UserRespDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708506205861</updated>
-      <workItem from="1708506208697" duration="15349000" />
+      <workItem from="1708506208697" duration="17912000" />
     </task>
     <servers />
   </component>
@@ -131,6 +130,26 @@
           <url>file://$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/common/web/GlobalExceptionHandler.java</url>
           <line>54</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/common/web/GlobalExceptionHandler.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/common/serialize/PhoneDesensitizationSerializer.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/service/impl/UserServiceImpl.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/common/serialize/PhoneDesensitizationSerializer.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

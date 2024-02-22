@@ -1,6 +1,8 @@
 package com.hps.shortlink.admin.dto.resp;
 
 
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.hps.shortlink.admin.common.serialize.PhoneDesensitizationSerializer;
 import lombok.Data;
 
 import java.util.Date;
@@ -29,6 +31,7 @@ public class UserRespDTO {
     /**
      * ÊÖ»úºÅ
      */
+    @JsonSerialize(using = PhoneDesensitizationSerializer.class)
     private String phone;
 
     /**

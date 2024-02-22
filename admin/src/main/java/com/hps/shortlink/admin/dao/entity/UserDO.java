@@ -1,7 +1,10 @@
 package com.hps.shortlink.admin.dao.entity;
 
 import com.baomidou.mybatisplus.annotation.TableName;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.hps.shortlink.admin.common.serialize.PhoneDesensitizationSerializer;
 import lombok.Data;
+import lombok.experimental.Accessors;
 
 import java.util.Date;
 
@@ -11,6 +14,7 @@ import java.util.Date;
 
 @Data
 @TableName("t_user")
+@Accessors(chain = true)
 public class UserDO {
 
     /**
