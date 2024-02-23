@@ -4,8 +4,7 @@ package com.hps.shortlink.admin.dto.req;
 import lombok.Data;
 
 @Data
-public class UserRegisterReqDTO {
-
+public class UserUpdateReqDTO {
     /**
      * 用户名
      */
@@ -30,5 +29,6 @@ public class UserRegisterReqDTO {
      * 邮箱
      */
     private String mail;
+
 
 }

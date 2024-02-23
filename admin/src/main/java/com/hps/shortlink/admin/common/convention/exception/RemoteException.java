@@ -5,7 +5,7 @@ import com.hps.shortlink.admin.common.convention.errorcode.BaseErrorCode;
 import com.hps.shortlink.admin.common.convention.errorcode.IErrorCode;
 
 /**
- * 远程服务调用异常
+ * 杩滅▼鏈嶅姟璋冪敤寮傚父
  */
 public class RemoteException extends AbstractException {
 

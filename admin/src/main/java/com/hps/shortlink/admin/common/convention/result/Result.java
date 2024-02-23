@@ -7,7 +7,7 @@ import java.io.Serial;
 import java.io.Serializable;
 
 /**
- * È«¾Ö·µ»Ø¶ÔÏó
+ * å…¨å±€è¿”å›å¯¹è±¡
  */
 @Data
 @Accessors(chain = true)
@@ -17,27 +17,27 @@ public class Result<T> implements Serializable {
     private static final long serialVersionUID = 5679018624309023727L;
 
     /**
-     * ÕıÈ··µ»ØÂë
+     * æ­£ç¡®è¿”å›ç 
      */
     public static final String SUCCESS_CODE = "0";
 
     /**
-     * ·µ»ØÂë
+     * è¿”å›ç 
      */
     private String code;
 
     /**
-     * ·µ»ØÏûÏ¢
+     * è¿”å›æ¶ˆæ¯
      */
     private String message;
 
     /**
-     * ÏìÓ¦Êı¾İ
+     * å“åº”æ•°æ®
      */
     private T data;
 
     /**
-     * ÇëÇóID
+     * è¯·æ±‚ID
      */
     private String requestId;
 

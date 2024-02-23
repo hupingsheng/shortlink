@@ -7,12 +7,12 @@ import com.hps.shortlink.admin.common.convention.exception.AbstractException;
 import java.util.Optional;
 
 /**
- * È«¾Ö·µ»Ø¶ÔÏó¹¹ÔìÆ÷
+ * å…¨å±€è¿”å›å¯¹è±¡æ„é€ å™¨
  */
 public final class Results {
 
     /**
-     * ¹¹Ôì³É¹¦ÏìÓ¦
+     * æ„é€ æˆåŠŸå“åº”
      */
     public static Result<Void> success() {
         return new Result<Void>()
@@ -20,7 +20,7 @@ public final class Results {
     }
 
     /**
-     * ¹¹Ôì´ø·µ»ØÊı¾İµÄ³É¹¦ÏìÓ¦
+     * æ„é€ å¸¦è¿”å›æ•°æ®çš„æˆåŠŸå“åº”
      */
     public static <T> Result<T> success(T data) {
         return new Result<T>()
@@ -29,7 +29,7 @@ public final class Results {
     }
 
     /**
-     * ¹¹½¨·şÎñ¶ËÊ§°ÜÏìÓ¦
+     * æ„å»ºæœåŠ¡ç«¯å¤±è´¥å“åº”
      */
     public static Result<Void> failure() {
         return new Result<Void>()
@@ -38,7 +38,7 @@ public final class Results {
     }
 
     /**
-     * Í¨¹ı {@link AbstractException} ¹¹½¨Ê§°ÜÏìÓ¦
+     * é€šè¿‡ {@link AbstractException} æ„å»ºå¤±è´¥å“åº”
      */
     public static Result<Void> failure(AbstractException abstractException) {
         String errorCode = Optional.ofNullable(abstractException.getErrorCode())
@@ -51,7 +51,7 @@ public final class Results {
     }
 
     /**
-     * Í¨¹ı errorCode¡¢errorMessage ¹¹½¨Ê§°ÜÏìÓ¦
+     * é€šè¿‡ errorCodeã€errorMessage æ„å»ºå¤±è´¥å“åº”
      */
     public static Result<Void> failure(String errorCode, String errorMessage) {
         return new Result<Void>()

@@ -7,7 +7,7 @@ import com.hps.shortlink.admin.common.convention.errorcode.IErrorCode;
 import java.util.Optional;
 
 /**
- * ·şÎñ¶ËÒì³£
+ * æœåŠ¡ç«¯å¼‚å¸¸
  */
 public class ServiceException extends AbstractException {
 

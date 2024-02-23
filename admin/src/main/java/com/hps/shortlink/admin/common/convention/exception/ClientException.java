@@ -4,7 +4,7 @@ import com.hps.shortlink.admin.common.convention.errorcode.BaseErrorCode;
 import com.hps.shortlink.admin.common.convention.errorcode.IErrorCode;
 
 /**
- * ¿Í»§¶ËÒì³£
+ * å®¢æˆ·ç«¯å¼‚å¸¸
  */
 public class ClientException extends AbstractException {
 

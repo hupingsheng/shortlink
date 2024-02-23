@@ -7,7 +7,7 @@ import org.springframework.util.StringUtils;
 import java.util.Optional;
 
 /**
- * 抽象项目中三类异常体系，客户端异常、服务端异常以及远程服务调用异常
+ * 鎶借薄椤圭洰涓笁绫诲紓甯镐綋绯伙紝瀹㈡埛绔紓甯搞�佹湇鍔＄寮傚父浠ュ強杩滅▼鏈嶅姟璋冪敤寮傚父
  *
  * ClientException
  * ServiceException
