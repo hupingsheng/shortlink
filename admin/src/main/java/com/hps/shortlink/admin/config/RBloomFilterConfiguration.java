@@ -7,13 +7,13 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * ²¼Â¡¹ıÂËÆ÷ÅäÖÃ
+ * å¸ƒéš†è¿‡æ»¤å™¨é…ç½®
  */
 @Configuration
 public class RBloomFilterConfiguration {
 
     /**
-     * ·ÀÖ¹ÓÃ»§×¢²á²éÑ¯Êı¾İ¿âµÄ²¼Â¡¹ıÂËÆ÷
+     * é˜²æ­¢ç”¨æˆ·æ³¨å†ŒæŸ¥è¯¢æ•°æ®åº“çš„å¸ƒéš†è¿‡æ»¤å™¨
      */
     @Bean
     public RBloomFilter<String> userRegisterCachePenetrationBloomFilter(RedissonClient redissonClient) {

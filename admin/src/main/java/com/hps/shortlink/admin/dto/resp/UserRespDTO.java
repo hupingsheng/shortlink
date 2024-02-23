@@ -8,7 +8,7 @@ import lombok.Data;
 import java.util.Date;
 
 /**
- * ÓÃ»§·µ»Ø²ÎÊıÏìÓ¦
+ * ç”¨æˆ·è¿”å›å‚æ•°å“åº”
  */
 @Data
 public class UserRespDTO {
@@ -19,23 +19,23 @@ public class UserRespDTO {
     private Long id;
 
     /**
-     * ÓÃ»§Ãû
+     * ç”¨æˆ·å
      */
     private String username;
 
     /**
-     * ÕæÊµĞÕÃû
+     * çœŸå®å§“å
      */
     private String realName;
 
     /**
-     * ÊÖ»úºÅ
+     * æ‰‹æœºå·
      */
     @JsonSerialize(using = PhoneDesensitizationSerializer.class)
     private String phone;
 
     /**
-     * ÓÊÏä
+     * é‚®ç®±
      */
     private String mail;
 

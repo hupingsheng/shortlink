@@ -11,7 +11,7 @@ import lombok.experimental.Accessors;
 import java.util.Date;
 
 /**
- * ÓÃ»§³Ö¾Ã²ãÊµÌå
+ * ç”¨æˆ·æŒä¹…å±‚å®ä½“
  */
 
 @Data
@@ -25,49 +25,49 @@ public class UserDO {
     private Long id;
 
     /**
-     * ÓÃ»§Ãû
+     * ç”¨æˆ·å
      */
     private String username;
 
     /**
-     * ÃÜÂë
+     * å¯†ç 
      */
     private String password;
 
     /**
-     * ÕæÊµĞÕÃû
+     * çœŸå®å§“å
      */
     private String realName;
 
     /**
-     * ÊÖ»úºÅ
+     * æ‰‹æœºå·
      */
     private String phone;
 
     /**
-     * ÓÊÏä
+     * é‚®ç®±
      */
     private String mail;
 
     /**
-     * ×¢ÏúÊ±¼ä´Á
+     * æ³¨é”€æ—¶é—´æˆ³
      */
     private Long deletionTime;
 
     /**
-     * ´´½¨Ê±¼ä
+     * åˆ›å»ºæ—¶é—´
      */
     @TableField(fill = FieldFill.INSERT)
     private Date createTime;
 
     /**
-     * ĞŞ¸ÄÊ±¼ä
+     * ä¿®æ”¹æ—¶é—´
      */
     @TableField(fill = FieldFill.INSERT_UPDATE)
     private Date updateTime;
 
     /**
-     * É¾³ı±êÊ¶ 0:Î´É¾³ı 1:ÒÑÉ¾³ı
+     * åˆ é™¤æ ‡è¯† 0:æœªåˆ é™¤ 1:å·²åˆ é™¤
      */
     @TableField(fill = FieldFill.INSERT)
     private Integer delFlag;

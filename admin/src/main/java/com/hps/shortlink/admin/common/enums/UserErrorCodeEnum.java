@@ -4,13 +4,13 @@ import com.hps.shortlink.admin.common.convention.errorcode.IErrorCode;
 
 public enum UserErrorCodeEnum implements IErrorCode {
 
-    USER_NULL("B000200", "ÓÃ»§¼ÇÂ¼²»´æÔÚ"),
+    USER_NULL("B000200", "ç”¨æˆ·è®°å½•ä¸å­˜åœ¨"),
 
-    USER_NAME_EXIST("B000201", "ÓÃ»§ÃûÒÑ´æÔÚ"),
+    USER_NAME_EXIST("B000201", "ç”¨æˆ·åå·²å­˜åœ¨"),
 
-    USER_EXIST("B000202", "ÓÃ»§¼ÇÂ¼ÒÑ´æÔÚ"),
+    USER_EXIST("B000202", "ç”¨æˆ·è®°å½•å·²å­˜åœ¨"),
 
-    USER_SAVE_EXIST("B000203", "ÓÃ»§¼ÇÂ¼ĞÂÔöÊ§°Ü");
+    USER_SAVE_EXIST("B000203", "ç”¨æˆ·è®°å½•æ–°å¢å¤±è´¥");
 
 
     private final String code;

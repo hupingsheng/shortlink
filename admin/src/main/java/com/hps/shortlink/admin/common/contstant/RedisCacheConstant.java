@@ -1,7 +1,7 @@
 package com.hps.shortlink.admin.common.contstant;
 
 /**
- * redis³£Á¿»º´æÀà
+ * rediså¸¸é‡ç¼“å­˜ç±»
  */
 public class RedisCacheConstant {
     public static final String LOCK_USER_REGISTER_KEY = "short-link:lock_user-register:";

@@ -8,7 +8,7 @@ import com.fasterxml.jackson.databind.SerializerProvider;
 import java.io.IOException;
 
 /**
- * ÊÖ»úºÅÍÑÃô·´ĞòÁĞ»¯
+ * æ‰‹æœºå·è„±æ•ååºåˆ—åŒ–
  */
 public class PhoneDesensitizationSerializer extends JsonSerializer<String> {
 

@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import java.util.Optional;
 
 /**
- * È«¾ÖÒì³£´¦ÀíÆ÷
+ * å…¨å±€å¼‚å¸¸å¤„ç†å™¨
  *
  */
 @Component
@@ -29,7 +29,7 @@ import java.util.Optional;
 public class GlobalExceptionHandler {
 
     /**
-     * À¹½Ø²ÎÊıÑéÖ¤Òì³£
+     * æ‹¦æˆªå‚æ•°éªŒè¯å¼‚å¸¸
      */
     @SneakyThrows
     @ExceptionHandler(value = MethodArgumentNotValidException.class)
@@ -44,7 +44,7 @@ public class GlobalExceptionHandler {
     }
 
     /**
-     * À¹½ØÓ¦ÓÃÄÚÅ×³öµÄÒì³£
+     * æ‹¦æˆªåº”ç”¨å†…æŠ›å‡ºçš„å¼‚å¸¸
      */
     @ExceptionHandler(value = {AbstractException.class})
     public Result abstractException(HttpServletRequest request, AbstractException ex) {
@@ -57,7 +57,7 @@ public class GlobalExceptionHandler {
     }
 
     /**
-     * À¹½ØÎ´²¶»ñÒì³£
+     * æ‹¦æˆªæœªæ•è·å¼‚å¸¸
      */
     @ExceptionHandler(value = Throwable.class)
     public Result defaultErrorHandler(HttpServletRequest request, Throwable throwable) {

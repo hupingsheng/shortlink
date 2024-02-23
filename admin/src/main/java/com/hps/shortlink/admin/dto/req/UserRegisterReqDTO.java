@@ -12,27 +12,27 @@ public class UserRegisterReqDTO {
     private Long id;
 
     /**
-     * ÓÃ»§Ãû
+     * ç”¨æˆ·å
      */
     private String username;
 
     /**
-     * ÃÜÂë
+     * å¯†ç 
      */
     private String password;
 
     /**
-     * ÕæÊµĞÕÃû
+     * çœŸå®å§“å
      */
     private String realName;
 
     /**
-     * ÊÖ»úºÅ
+     * æ‰‹æœºå·
      */
     private String phone;
 
     /**
-     * ÓÊÏä
+     * é‚®ç®±
      */
     private String mail;
 

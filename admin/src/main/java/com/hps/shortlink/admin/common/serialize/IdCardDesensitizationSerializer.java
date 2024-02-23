@@ -8,7 +8,7 @@ import com.fasterxml.jackson.databind.SerializerProvider;
 import java.io.IOException;
 
 /**
- * 身份证号脱敏反序列化
+ * 韬唤璇佸彿鑴辨晱鍙嶅簭鍒楀寲
  */
 public class IdCardDesensitizationSerializer extends JsonSerializer<String> {
 

@@ -1,17 +1,17 @@
 package com.hps.shortlink.admin.common.convention.errorcode;
 
 /**
- * Æ½Ì¨´íÎóÂë
+ * å¹³å°é”™è¯¯ç 
  */
 public interface IErrorCode {
 
     /**
-     * ´íÎóÂë
+     * é”™è¯¯ç 
      */
     String code();
 
     /**
-     * ´íÎóĞÅÏ¢
+     * é”™è¯¯ä¿¡æ¯
      */
     String message();
 }

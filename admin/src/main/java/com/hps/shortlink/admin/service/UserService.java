@@ -7,12 +7,12 @@ import com.hps.shortlink.admin.dto.req.UserRegisterReqDTO;
 import com.hps.shortlink.admin.dto.resp.UserRespDTO;
 
 /**
- * ÓÃ»§½Ó¿Ú²ã
+ * ç”¨æˆ·æ¥å£å±‚
  */
 public interface UserService extends IService<UserDO> {
 
     /**
-     * ¸ù¾İÓÃ»§Ãû·µ»ØÊµÌå
+     * æ ¹æ®ç”¨æˆ·åè¿”å›å®ä½“
      * @param username
      * @return
      */
