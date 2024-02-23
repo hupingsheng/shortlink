@@ -77,4 +77,11 @@ public class UserController {
     public Result<Boolean> checkLogin(@RequestParam("token") String token, @RequestParam("username") String username){
         return Results.success(userService.checkLogin(username,token));
     }
+
+    @DeleteMapping("/api/short-link/v1/user/logout")
+    public Result<Void> logout(@RequestParam("token") String token, @RequestParam("username") String username){
+        userService.logout(username, token);
+        return Results.success();
+    }
+
 }
