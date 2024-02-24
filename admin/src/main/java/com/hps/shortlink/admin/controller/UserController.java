@@ -9,7 +9,6 @@ import com.hps.shortlink.admin.dto.resp.UserLoginRespDTO;
 import com.hps.shortlink.admin.dto.resp.UserRespDTO;
 import com.hps.shortlink.admin.service.UserService;
 import lombok.RequiredArgsConstructor;
-import org.apache.commons.collections4.Get;
 import org.springframework.web.bind.annotation.*;
 
 /**
@@ -83,5 +82,6 @@ public class UserController {
         userService.logout(username, token);
         return Results.success();
     }
+
 
 }
