@@ -3,6 +3,7 @@ package com.hps.shortlink.admin.controller;
 import com.hps.shortlink.admin.common.convention.result.Result;
 import com.hps.shortlink.admin.common.convention.result.Results;
 import com.hps.shortlink.admin.dto.req.GroupSaveReqDTO;
+import com.hps.shortlink.admin.dto.req.ShortLinkGroupDeleteReqDTO;
 import com.hps.shortlink.admin.dto.req.ShortLinkGroupUpdateReqDTO;
 import com.hps.shortlink.admin.dto.resp.ShortLinkGroupRespDTO;
 import com.hps.shortlink.admin.service.GroupService;
@@ -30,6 +31,12 @@ public class GroupController {
     @PutMapping("/api/short-link/v1/group")
     public Result<Void> updateGroup(@RequestBody ShortLinkGroupUpdateReqDTO requestParam){
         groupService.updateGroup(requestParam);
+        return Results.success();
+    }
+
+    @DeleteMapping("/api/short-link/v1/group")
+    public Result<Void> deleteGroup(@RequestParam  String gid){
+        groupService.deleteGroup(gid);
         return Results.success();
     }
 

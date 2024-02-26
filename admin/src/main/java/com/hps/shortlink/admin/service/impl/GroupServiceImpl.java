@@ -8,6 +8,7 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.hps.shortlink.admin.common.biz.user.UserContext;
 import com.hps.shortlink.admin.dao.entity.GroupDO;
 import com.hps.shortlink.admin.dao.mapper.GroupMapper;
+import com.hps.shortlink.admin.dto.req.ShortLinkGroupDeleteReqDTO;
 import com.hps.shortlink.admin.dto.req.ShortLinkGroupUpdateReqDTO;
 import com.hps.shortlink.admin.dto.resp.ShortLinkGroupRespDTO;
 import com.hps.shortlink.admin.service.GroupService;
@@ -59,6 +60,20 @@ public class GroupServiceImpl extends ServiceImpl<GroupMapper, GroupDO> implemen
         // 进行更新
         GroupDO groupDO = new GroupDO();
         groupDO.setName(requestParam.getName());
+        baseMapper.update(groupDO, updateWrapper);
+    }
+
+    @Override
+    public void deleteGroup(String gid) {
+        //先根据gid,当前用户名查询分组
+        LambdaUpdateWrapper<GroupDO> updateWrapper = Wrappers.lambdaUpdate(GroupDO.class)
+                .eq(GroupDO::getUsername, UserContext.getUsername())
+                .eq(GroupDO::getGid, gid)
+                .eq(GroupDO::getDelFlag, 0);
+
+        // 软删除 设置Flag为1
+        GroupDO groupDO = new GroupDO();
+        groupDO.setDelFlag(1);
         baseMapper.update(groupDO, updateWrapper);
     }
 
