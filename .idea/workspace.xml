@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9b3520ff-5c5e-4652-b824-70283a1a49b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/controller/GroupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/controller/GroupController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/service/GroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/service/GroupService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/service/impl/GroupServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/service/impl/GroupServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +75,9 @@
       <recent name="D:\project\shortlink\project\src\main\java\com\hps\shortlink\project" />
       <recent name="D:\project\shortlink\gateway\src\main\java\com\hps\shortlink\gateway" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hps.shortlink.admin.dto.req" />
+    </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ShortLinkAdminApplication">
     <configuration name="UserTableShardingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -119,7 +122,7 @@
       <option name="presentableId" value="Default" />
       <updated>1708506205861</updated>
       <workItem from="1708506208697" duration="52505000" />
-      <workItem from="1708831332448" duration="6214000" />
+      <workItem from="1708831332448" duration="7226000" />
     </task>
     <servers />
   </component>
@@ -202,17 +205,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/service/impl/GroupServiceImpl.java</url>
-          <line>42</line>
+          <line>44</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/service/impl/GroupServiceImpl.java</url>
-          <line>41</line>
+          <line>43</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/service/impl/GroupServiceImpl.java</url>
-          <line>40</line>
+          <line>42</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -222,7 +225,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/admin/src/main/java/com/hps/shortlink/admin/controller/GroupController.java</url>
-          <line>22</line>
+          <line>20</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
